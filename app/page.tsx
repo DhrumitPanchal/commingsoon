@@ -21,7 +21,7 @@ const toDatetimeLocal = (d: Date) => {
   return `${yyyy}-${mm}-${dd}T${hh}:${min}`;
 };
 
-const initialDeadline = new Date("2025-12-31T00:00");
+const initialDeadline = new Date("2025-12-19T00:00");
 
 export default function Home() {
   const [deadline, setDeadline] = useState<Date>(initialDeadline);
